@@ -1,0 +1,178 @@
+/* .main{
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  position: sticky;
+  top: 0;
+  background-color: white;
+} */
+body{
+  position: sticky;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+.main{
+  position: sticky;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+
+}
+.Side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-right: 1px solid #D6D6D6;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: max-content;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 120px;
+
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+  /* line-height: 15px; */
+
+}
+
+.sideicon {
+  margin-top: 30px;
+
+
+}
+
+.sideiconLast {
+  margin-top: 70px;
+
+
+}
+
+.profileSide {
+  border-radius: 50%;
+  margin-top: 30px;
+
+}
+
+/* .tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+}
+
+.container2 {
+  width: 10px;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.sideicon2 {
+  margin-top: 30px;
+
+
+} */
+
+@media only screen and (min-width: 768px) {
+  .tablet {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1025px) {
+  .Side {
+    display: none;
+  }
+  body{
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+  }
+  .main{
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .tablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    position: sticky;
+    top: 0;
+bottom: 0;
+    background-color: white;
+    border-right: 1px solid #D6D6D6;
+
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    padding: 20px;
+    position: sticky;
+    /* position: fixed; */
+    top: 0;
+    background-color:white;
+  }
+
+  ul {
+    list-style: none;
+    /* line-height: 15px; */
+
+  }
+
+  .sideicon2 {
+    margin-top: 30px;
+
+
+  }
+}
